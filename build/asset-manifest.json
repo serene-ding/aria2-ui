@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.18f6c17a.css",
+    "main.js": "./static/js/main.1403b433.js",
+    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
+    "static/media/ice-mountain.jpg": "./static/media/ice-mountain.5af9d06e1111d0be3c7f.jpg",
+    "index.html": "./index.html",
+    "main.18f6c17a.css.map": "./static/css/main.18f6c17a.css.map",
+    "main.1403b433.js.map": "./static/js/main.1403b433.js.map",
+    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18f6c17a.css",
+    "static/js/main.1403b433.js"
+  ]
+}

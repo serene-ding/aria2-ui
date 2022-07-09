@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  margin: 0;
+  font-family: Sans-serif;
+  overflow: hidden;
+}
+.App {
+  display: flex;
+  height: 100vh;
+}
+.App .left-side {
+  width: 300px;
+  height: 100%;
+  padding: 20px 40px;
+  text-align: center;
+}
+.App .right-side {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f3f7;
+}
+.App .left-side button {
+  width: 150px;
+  text-align: center;
+  height: 50px;
+  border-radius: 13px;
+  border: 1px solid;
+  background-image: linear-gradient(79deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  font-size: 16px;
+  xpadding-left: 20px;
+  position: relative;
+  margin: auto;
+}
+.App .left-side a {
+  text-decoration: none;
+  color: #000;
+}
+.App .left-side a.active .menu-icon-container {
+  background-color: lightpink;
+}
+.App .left-side .menu-container {
+  margin-top: 20px;
+}
+.App .left-side .menu-icon-container {
+  display: flex;
+
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.App .left-side .menu-icon-container .icon svg {
+  width: 20px;
+  margin-right: 10px;
+}
+.App .left-side .menu-icon-container .text {
+  line-height: 20px;
+  margin-right: 5px;
+}
